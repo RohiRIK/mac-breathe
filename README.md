@@ -2,13 +2,13 @@
 
 A calm, native macOS breathing guide. A soft orb grows as you breathe in and shrinks as you breathe out. It lives in your menu bar, and opens into a quiet full window when you want to focus.
 
-![Menu bar panel: Extended Exhale, orb, Begin, 3 min recommended, Open Big Window, Settings, Quit](docs/screenshots/panel.png width=230 alt="Menu bar panel")
+<img src="docs/screenshots/panel.png" width="230" alt="Menu bar panel: Extended Exhale, orb, Begin, 3 min recommended, Open Big Window, Settings, Quit">
 
-![Settings, Breath tab: techniques grouped by goal, a looping preview orb, what the technique is best for](docs/screenshots/settings-breath.png width=300 alt="Settings, Breath tab")
+<img src="docs/screenshots/settings-breath.png" width="300" alt="Settings, Breath tab: techniques grouped by goal, a looping preview orb, what the technique is best for">
 
-![Settings, Look tab: orb styles Circle, Petals, Rings and nine colour themes](docs/screenshots/settings-look.png width=300 alt="Settings, Look tab")
+<img src="docs/screenshots/settings-look.png" width="300" alt="Settings, Look tab: orb styles Circle, Petals, Rings and nine colour themes">
 
-![Mac Breathe big window: a lavender orb on a dark calm background, Extended Exhale, 4 in · 6 out, 3 min recommended, Begin](docs/screenshots/window.png width=640 alt="Mac Breathe big window: a lavender orb on a dark calm background, Extended Exhale, 4 in · 6 out, 3 min recommended, Begin")
+<img src="docs/screenshots/window.png" width="640" alt="Mac Breathe big window: a lavender orb on a dark calm background, Extended Exhale, 4 in · 6 out, 3 min recommended, Begin">
 
 ## What it does
 
@@ -48,6 +48,18 @@ macOS 15 or later, Apple silicon and Intel.
 scripts/check.sh              # tests + release bundle (writes build/check-report.md)
 open build/MacBreathe.app
 ```
+
+## Repository layout
+
+- `Sources/` — native SwiftUI application and breathing/session logic.
+- `Tests/` — automated tests.
+- `Resources/` — app metadata, icons and bundled audio.
+- `scripts/` — local test, bundle and release checks.
+- `docs/screenshots/` — app screenshots used above.
+- `docs/previews/` — additional visual previews.
+- `THIRD_PARTY_NOTICES.md` — audio attribution and licensing.
+
+Run build commands on macOS with Xcode Command Line Tools. The release download above is the installation path; this repository contains the source.
 
 ## Credits
 
