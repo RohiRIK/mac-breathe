@@ -2,13 +2,9 @@
 
 A calm, native macOS breathing guide. A soft orb grows as you breathe in and shrinks as you breathe out. It lives in your menu bar, and opens into a quiet full window when you want to focus.
 
-<img src="docs/screenshots/panel.png" width="230" alt="Menu bar panel: Extended Exhale, orb, Begin, 3 min recommended, Open Big Window, Settings, Quit">
+<img src="docs/screenshots/window.png" width="640" alt="Mac Breathe focus window with an animated breathing orb">
 
-<img src="docs/screenshots/settings-breath.png" width="300" alt="Settings, Breath tab: techniques grouped by goal, a looping preview orb, what the technique is best for">
-
-<img src="docs/screenshots/settings-look.png" width="300" alt="Settings, Look tab: orb styles Circle, Petals, Rings and nine colour themes">
-
-<img src="docs/screenshots/window.png" width="640" alt="Mac Breathe big window: a lavender orb on a dark calm background, Extended Exhale, 4 in · 6 out, 3 min recommended, Begin">
+[Download for macOS](https://github.com/RohiRIK/mac-breathe/releases/latest) · [Install](#install) · [Build](#build) · [Additional screenshots](docs/screenshots/)
 
 ## What it does
 
